@@ -3,23 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @media only screen and (max-width: 600px){
   .row{
     display: flex;
     flex-direction: column;
+    
   }
 
   #lezioni{
     background-color: #F2F2CD;
     display: flex;
-    flex-direction: column;
   }
 
   #steps{
     background-color: white;
-
+    display: flex;
   }
+
   #why{
+    display: flex;
     background-color: #F2F2CD;
   }
 
