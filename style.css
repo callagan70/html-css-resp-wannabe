@@ -8,7 +8,15 @@
   .row{
     display: flex;
     flex-direction: column;
-    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left,
+  .central,
+  .right {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #lezioni{
